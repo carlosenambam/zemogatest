@@ -1,0 +1,64 @@
+/*
+ * Theme Name: Zemoga
+ * Author: Carlos Alvarez
+ * Author URI: https://www.linkedin.com/in/carlos-alvarez-979872161/
+ * Description: Zemoga Test
+ * template: twentyseventeen
+ */
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Devs Container
+2.0 Media Queries
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------
+1.0 Devs Container
+----------------------------------------------------------*/
+.dev_container {
+	padding: 0 10%;
+}
+
+.dev_container .dev {
+	padding: 0 51px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.dev_container .name {
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.dev_container .photo {
+	border-radius: 50%;
+	margin-bottom: 25px;
+}
+
+.dev_container .caption {
+	padding: 0 11%;
+}
+
+.dev_container a {
+	color: #333;
+	text-decoration: none;
+}
+
+/*--------------------------------------------------------
+2.0 Media Queries
+----------------------------------------------------------*/
+@media (min-width: 576px) {
+	.dev_container .name {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 992px) {
+	.dev_container .name {
+		font-size: 30px;
+	}
+}
